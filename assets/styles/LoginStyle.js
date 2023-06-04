@@ -1,0 +1,70 @@
+import React from 'react';
+import {StyleSheet, Text, View} from 'react-native'
+import { COLORS,FONT,SIZES } from '../../constants';
+
+export const LoginStyle = StyleSheet.create({
+    Container:{
+        borderStyle:"solid",borderWidth: 1 ,
+        borderColor:"black",
+        padding:8,
+        borderRadius:5,
+        backgroundColor:"white"
+    },
+    InputContainer:{
+        flexDirection:"row",
+        alignItems:"center",
+        marginBottom:10,
+        justifyContent:"center",
+        height:40,
+        width:250
+    },
+    InputStyle:{
+        borderWidth:1,
+        borderStyle:"solid",
+        padding:5,
+        width:"100%",
+        borderRadius:5,
+        borderColor:'lightblue',
+    },
+    guestlogin:{
+        alignItems:"center",
+        justifyContent:"center",
+        margin:7,
+    },
+    guestlogintext:{
+        color:"#225cbf",
+        fontWeight:600
+    },
+    guestlogintextActive:{
+        color:COLORS.gray2
+    },
+    Text:{
+        fontSize:SIZES.medium
+    },
+    InputBtnContainer:{
+        justifyContent:'center',
+        alignItems:"center",
+        textAlign:"center"
+    },
+    InputBtn:{
+        width:"100%",
+        height:40,
+        backgroundColor:COLORS.tertiary,
+        alignItems:"center",
+        justifyContent:"center",
+        borderRadius:5,
+    },
+    InputBtnText:{
+        color:COLORS.white,
+        fontSize:SIZES.medium,
+        fontWeight:600
+    },
+    TitleContainer:{
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    TitleText:{
+        fontSize:SIZES.xxLarge,
+        marginBottom:17,
+    }
+})
